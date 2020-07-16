@@ -1,8 +1,0 @@
-<p>Are you sure you want to delete "{{item_to_delete}}"?</p>
-
-<a href="{% url '/todo/' %}" >Cancel</a>
-
-<form method="POST" action="">
-	{% csrf_token %}
-	<input type="submit" name="Confirm">
-</form>
